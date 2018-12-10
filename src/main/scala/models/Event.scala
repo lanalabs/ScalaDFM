@@ -1,5 +1,5 @@
 package models
 
-import org.joda.time.DateTime
+import java.time.ZonedDateTime
 
-case class Event(traceId: String, activity: String, start: DateTime)
+case class Event(traceId: String, activity: String, start: ZonedDateTime)
